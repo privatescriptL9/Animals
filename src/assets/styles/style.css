@@ -7,6 +7,11 @@ body {
 
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 #app {
   width: 100%;
   height: 100vh;
@@ -57,29 +62,28 @@ body {
 }
 
 .area__title {
-  font-size: 50px;
+  font-size: 45px;
   transform: rotate(90deg);
   z-index: 1;
   transition: .5s ease-in-out;
-  font-size: 3.5rem;
 }
 .container__area:nth-child(1) {
-  background: url(../images/taiga.jpeg) no-repeat center;
+  background: url(../images/taiga.jpeg) no-repeat center/cover;
 }
 
 .container__area:nth-child(2) {
-  background: url(../images/desert.jpeg) no-repeat center;
+  background: url(../images/desert.jpeg) no-repeat center/cover;
 }
 .container__area:nth-child(3) {
   background: url(../images/savannah.jpeg) no-repeat center/cover;
 }
 
 .container__area:nth-child(4) {
-  background: url(../images/steppe.jpeg) no-repeat center;
+  background: url(../images/steppe.jpeg) no-repeat center/cover;
 }
 
 .container__area:nth-child(5) {
-  background: url(../images/tropics_1.jpeg) no-repeat center;
+  background: url(../images/tropics.jpeg) no-repeat center/cover;
 }
 
 .container__area::after {
@@ -87,7 +91,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #0000004d;
+  background: #0000002f;
 }
 
 .container__reflect {

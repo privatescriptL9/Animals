@@ -1,9 +1,15 @@
+const container__area = document.querySelectorAll('.container__area')
 
-// const container__area = document.querySelectorAll('.container__area')
-// const area__title = document.querySelector('.area__title')
+const urls = {
+  0: 'taiga.html',
+  1: 'desert.html',
+  2: 'savannah.html',
+  3: 'steppe.html',
+  4: 'tropics.html'
+}
 
-// container__area.forEach(area => {
-//   area.addEventListener('mouseenter', (e) => {
-//     container__area.style.flex = '0'
-//   })
-// })
+container__area.forEach((element, index) => {
+  element.addEventListener('click', () => {
+    document.location.href = urls[index]
+  })
+})
