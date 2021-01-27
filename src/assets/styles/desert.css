@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container__animal {
+  width: 500px;
+  height: 500px;
+  color: #fff;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.characteristicks {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feet {
+  background: rgba(0, 152, 253, 0.637);
+}
+
+.weigh {
+  background: rgba(3, 190, 28, 0.562);
+}
+
+.s1 {
+  background: url('../images/desert/camel.png') no-repeat center/cover;
+}
+
+.s2 {
+  background: url('../images/desert/macroscelides.png') no-repeat center/cover;
+}
+
+.s3 {
+  background: url('../images/desert/oryx.png') no-repeat center/cover;
+}
+
+.s4 {
+  background: url('../images/desert/shaphan.png') no-repeat center/cover;
+}
+
+.s5 {
+  background: url('../images/desert/squirrel.png') no-repeat center/cover;
+}
