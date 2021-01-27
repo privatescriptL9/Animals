@@ -2,35 +2,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.container__animal {
-  width: 500px;
-  height: 500px;
-  color: #fff;
-  text-align: center;
-}
-
-.info {
-  display: flex;
-  justify-content: space-around;
-}
-
-.characteristicks {
-  border-radius: 50%;
-  width: 75px;
-  height: 75px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.feet {
-  background: rgba(0, 152, 253, 0.637);
-}
-
-.weigh {
-  background: rgba(3, 190, 28, 0.562);
-}
-
 .s1 {
   background: url('../images/tropics/flamingo.png') no-repeat center/cover;
 }
