@@ -13,3 +13,11 @@ container__area.forEach((element, index) => {
     document.location.href = urls[index]
   })
 })
+
+function music() {
+  const audio = new Audio()
+  audio.src = 'assets/sounds/main.mp3'
+  audio.autoplay = 'autoplay'
+}
+
+music()
