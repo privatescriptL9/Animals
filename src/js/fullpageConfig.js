@@ -3,7 +3,6 @@ new fullpage('#fullpage', {
   navigation: true,
   continuousHorizontal: true,
   scrollHorizontally: true,
-  afterResponsive: function (isResponsive) {},
 })
 
 fullpage_api.cards.setOption('perspective', 500)
