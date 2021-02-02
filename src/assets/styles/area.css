@@ -1,0 +1,68 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.slide {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    rgba(157, 157, 157, 0.54);
+}
+
+.slide-title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 600;
+  position: relative;
+  top: -10%;
+}
+
+.slide-content {
+  display: flex;
+  padding: 0 74px;
+}
+
+.slide-content > .slide-image {
+  width: 50%;
+  margin: 0 50px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 67px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(38px);
+}
+
+.slide-content > .slide-text {
+  width: 50%;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: justify;
+  margin-right: 60px;
+}
+.fp-slidesNav ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.fp-slidesNav ul li {
+  width: 80px;
+  height: 17px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  margin-right: 50px;
+  border: none;
+  box-shadow: 0px 5px 3px #00000063;
+}
+
+.fp-slidesNav ul li a.active {
+  transition: all .3s ease-in;
+  background: rgba(1, 1, 1, 0.6);
+}
+
+.fp-slidesNav ul li a {
+  transition: all .3s ease-out;
+}
+
+.fp-slidesNav ul li a:hover {
+  background: rgba(1, 1, 1, 0.3);
+  transition: all .3s ease-in;
+}
