@@ -44,7 +44,7 @@ body {
 .slide-content {
   height: 75%;
   display: flex;
-  padding: 0 74px;
+  padding: 0 calc(30px + 30 * (100vh / 1920));
   max-width: 100%;
   justify-content: space-around;
 }
