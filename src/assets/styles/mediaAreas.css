@@ -27,7 +27,7 @@
 
   .container__area:first-child {
     margin-top: 10px;
-  }
+  } 
 
   .area__title {
     font-size: 35px;
@@ -35,7 +35,7 @@
   }
 
   .container__area:hover .area__title {
-    font-size: 3rem;
+    font-size: 40px;
   }
 }
 
