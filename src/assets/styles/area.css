@@ -113,3 +113,17 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 0;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+}
+
+.back-icon {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: calc(50px + 25 * (100vw / 1920));
+  z-index: 100;
+}
