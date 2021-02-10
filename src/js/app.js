@@ -1,4 +1,5 @@
 const container__area = document.querySelectorAll('.container__area')
+const soundBtn = document.querySelector('.sound-btn')
 
 const urls = [
   'taiga.html',
@@ -14,10 +15,27 @@ container__area.forEach((element, index) => {
   })
 })
 
+const audio = new Audio()
+
 function music() {
-  const audio = new Audio()
   audio.src = 'assets/sounds/main.mp3'
   audio.autoplay = 'autoplay'
 }
 
 music()
+
+soundBtn.addEventListener('click', () => {
+  if (!audio.muted) {
+    audio.muted = true
+    soundBtn.classList.remove('fa-volume-up')
+    soundBtn.classList.add('fa-volume-down')
+  } else {
+    audio.muted = false
+    soundBtn.classList.remove('fa-volume-down')
+    soundBtn.classList.add('fa-volume-up')
+  }
+})
+
+
+
+

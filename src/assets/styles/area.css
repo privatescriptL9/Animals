@@ -65,13 +65,14 @@ body {
 
 .slide__text {
   max-width: 45%;
+  text-align: justify;
 }
+
 
 .slide__text span {
   max-width: 100%;
   font-size: calc(15px + 10 * (100vw / 1920));
   line-height: 50px;
-  text-align: justify;
 }
 
 .fp-slidesNav ul {

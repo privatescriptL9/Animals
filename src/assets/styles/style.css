@@ -88,3 +88,12 @@ a {
   height: 100%;
   background: #0000002f;
 }
+
+.sound-btn {
+  position: fixed;
+  color: white;
+  font-size: calc(25px + 7 * (100vw / 1920));
+  top: 2%;
+  left: 1%;
+  cursor: pointer;
+}
